@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="DanhSachTinTucLoadControl.ascx.cs" Inherits="Ecommer.cms.admin.TinTuc.DanhSachTinTuc.DanhSachTinTucLoadControl" %>
+<asp:PlaceHolder ID="plLoadControl" runat="server"></asp:PlaceHolder>

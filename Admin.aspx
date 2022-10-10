@@ -6,40 +6,41 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <head runat="server">
+<head runat="server">
     <title></title>
     <script src="js/jquery-1.8.3.min.js"></script>
     <link href="cms/admin/css/cssAdmin.css" rel="stylesheet" />
 </head>
-    <body>
-        <form id="form1" runat="server">
-            <div id="header">
-                <div class="logo">
-                    Logo
-                </div>
-                <div class="accountMenu">
-                    Thoong tin tai khoan
-                </div>
+<body>
+    <form id="form1" runat="server">
+        <div id="header">
+            <div class="logo">
+                <a href="/Admin.aspx">
+                    <img src="pic/Logo/Logo_NS.jpg" />
+                </a>
             </div>
-            <%--phan menu chinh--%>
-            <div class="MenuChinh">
-                <ul>
-                    <li>
-                        <a href="/Admin.aspx" title="Home">Home</a>
-                        <a href="/Admin.aspx?modul=Product" title="Product">Product</a>
-                        <a href="/Admin.aspx?modul=Account" title="Account">Account</a>
+            <div class="accountMenu">
+                Hello:
+                <asp:Literal ID="ltrTenDangNhap" runat="server"></asp:Literal>
+                |<asp:LinkButton ID="lbtDangxuat" runat="server" OnClick="lbtDangxuat_Click">Logout</asp:LinkButton>
 
-                        <a href="/Admin.aspx?modul=Advertisement" title="Advertisement">Advertisement</a>
-                        <a href="/Admin.aspx?modul=News" title="News">News</a>
-
-                        <a href="/Admin.aspx?modul=Custommer" title="Custommer">Custommer</a>
-                        <a href="/Admin.aspx?modul=Menu" title="Menu">Menu</a>
-                    </li>
-                </ul>
             </div>
-            <%--phan noi dung trang--%>
-            <uc1:AdminLoadControl runat="server" ID="AdminLoadControl" />
-        </form>
-    </body>
+        </div>
+        <%--phan menu chinh--%>
+        <div class="MenuChinh">
+            <%-- <a href="/Admin.aspx" title="Home">Home</a>--%>
+            <ul>
+                <li><a class="<%=DanhDau("SanPham") %>" href="/Admin.aspx?modul=SanPham" title="SanPham">Sản Phẩm</a> </li>
+                <li><a class="<%=DanhDau("TaiKhoan") %>" href="/Admin.aspx?modul=TaiKhoan" title="Account">Tài Khoản</a></li>
+                <li><a class="<%=DanhDau("QuangCao") %>" href="/Admin.aspx?modul=QuangCao" title="Advertisement">Quảng Cáo</a></li>
+                <li><a class="<%=DanhDau("Tintuc") %>" href="/Admin.aspx?modul=TinTuc" title="News">Tin Tức</a></li>
+                <li><a class="<%=DanhDau("KhachHang") %>" href="/Admin.aspx?modul=KhachHang" title="Custommer">Khách Hàng</a></li>
+                <li><a class="<%=DanhDau("Menu") %>" href="/Admin.aspx?modul=Menu" title="Menu">Menu</a></li>
+            </ul>      
+        </div>
+        <%--phan noi dung trang--%>
+        <uc1:AdminLoadControl runat="server" ID="AdminLoadControl" />
+    </form>
+</body>
 
 </html>

@@ -16,24 +16,24 @@ namespace Ecommer.cms.admin
                 modul = Request.QueryString["modul"];
             switch (modul)
             {
-                case "Product":
-                    plAdminLoadControl.Controls.Add(LoadControl("Product/ProductLoadControl.ascx"));
+                case "SanPham":
+                    plAdminLoadControl.Controls.Add(LoadControl("SanPham/SanPhamLoadControl.ascx"));
                     break;
 
-                case "Account":
-                    plAdminLoadControl.Controls.Add(LoadControl("Account/AccountLoadControl.ascx"));
+                case "TaiKhoan":
+                    plAdminLoadControl.Controls.Add(LoadControl("TaiKhoan/TaiKhoanLoadControl.ascx"));
                     break;
 
-                case "Advertisement":
-                    plAdminLoadControl.Controls.Add(LoadControl("Advertisement/AdvertisementLoadControl.ascx"));
+                case "QuangCao":
+                    plAdminLoadControl.Controls.Add(LoadControl("QuangCao/QuangCaoLoadControl.ascx"));
                     break;
 
-                case "News":
-                    plAdminLoadControl.Controls.Add(LoadControl("News/NewsLoadControl.ascx"));
+                case "TinTuc":
+                    plAdminLoadControl.Controls.Add(LoadControl("TinTuc/TinTucLoadControl.ascx"));
                     break;
 
-                case "Custommer":
-                    plAdminLoadControl.Controls.Add(LoadControl("Custommer/CustommerLoadControl.ascx"));
+                case "KhachHang":
+                    plAdminLoadControl.Controls.Add(LoadControl("KhachHang/KhachHangLoadControl.ascx"));
                     break;
 
                 case "Menu":
@@ -41,7 +41,7 @@ namespace Ecommer.cms.admin
                     break;
 
                 default:
-                    plAdminLoadControl.Controls.Add(LoadControl("Product/ProductLoadControl.ascx"));
+                    plAdminLoadControl.Controls.Add(LoadControl("SanPham/SanPhamLoadControl.ascx"));
                     break;
 
             }

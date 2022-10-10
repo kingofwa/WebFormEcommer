@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="NhomQuangCaoLoadControl.ascx.cs" Inherits="Ecommer.cms.admin.QuangCao.QuanLyNhomQuangCao.NhomQuangCaoLoadControl" %>
+<asp:PlaceHolder ID="plLoadControl" runat="server"></asp:PlaceHolder>

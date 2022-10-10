@@ -1,2 +1,0 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="CategoryLoadControl.ascx.cs" Inherits="Ecommer.cms.admin.Product.Category.CategoryLoadControl" %>
-<asp:PlaceHolder ID="plCategoryLoadControl" runat="server"></asp:PlaceHolder>
