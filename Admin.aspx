@@ -33,7 +33,7 @@
                 <li><a class="<%=DanhDau("SanPham") %>" href="/Admin.aspx?modul=SanPham" title="SanPham">Sản Phẩm</a> </li>
                 <li><a class="<%=DanhDau("TaiKhoan") %>" href="/Admin.aspx?modul=TaiKhoan" title="Account">Tài Khoản</a></li>
                 <li><a class="<%=DanhDau("QuangCao") %>" href="/Admin.aspx?modul=QuangCao" title="Advertisement">Quảng Cáo</a></li>
-                <li><a class="<%=DanhDau("Tintuc") %>" href="/Admin.aspx?modul=TinTuc" title="News">Tin Tức</a></li>
+                <li><a class="<%=DanhDau("TinTuc") %>" href="/Admin.aspx?modul=TinTuc" title="News">Tin Tức</a></li>
                 <li><a class="<%=DanhDau("KhachHang") %>" href="/Admin.aspx?modul=KhachHang" title="Custommer">Khách Hàng</a></li>
                 <li><a class="<%=DanhDau("Menu") %>" href="/Admin.aspx?modul=Menu" title="Menu">Menu</a></li>
             </ul>      

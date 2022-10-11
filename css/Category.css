@@ -1,0 +1,7 @@
+﻿.widget .catagories-menu li > a {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-bottom: 15px;
+	display: block;
+	color: #1e1f20;
+}

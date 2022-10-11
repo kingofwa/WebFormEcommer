@@ -140,6 +140,17 @@ namespace Rikai_Ecommer
         #endregion
 
 
+        #region Lấy danh sách tin tức tru tin tuc hien tai
+        public static DataTable Thongtin_TinTuc_by_matintuc_tatca(string MaTT)
+        {
+            OleDbCommand cmd = new OleDbCommand("thongtin_tinTuc_by_matintuc_tatca");
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@Ma", MaTT);
+            return SQLDatabase.GetData(cmd);
+        }
+        #endregion
+
+
         #region Thủ tục cập nhật lượt xem tin tức
         public static void CapNhatLuotXemTinTuc(string id)
         {

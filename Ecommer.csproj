@@ -1003,87 +1003,89 @@
     <Content Include="cms\admin\TinTuc\DanhSachTinTuc\DanhSachTinTuc_HienThi.ascx" />
     <Content Include="cms\admin\TinTuc\DanhSachTinTuc\DanhSachTinTuc_ThemMoi.ascx" />
     <Content Include="cms\admin\TinTuc\TinTucLoadControl.ascx" />
-    <Content Include="css\bai-viet-chi-tiet.css" />
-    <Content Include="css\cam-nang-thoi-trang.css" />
-    <Content Include="css\chi-tiet-san-pham.css" />
-    <Content Include="css\dang-ky.css" />
-    <Content Include="css\dang-nhap.css" />
-    <Content Include="css\dau-gia.css" />
-    <Content Include="css\gio-hang.css" />
-    <Content Include="css\gioi-thieu.css" />
-    <Content Include="css\images\agribank.jpg" />
-    <Content Include="css\images\agribank.png" />
-    <Content Include="css\images\akmasa.png" />
-    <Content Include="css\images\bgfooter.jpg" />
-    <Content Include="css\images\bgheader.jpg" />
-    <Content Include="css\images\emdep.png" />
-    <Content Include="css\images\emdep1.png" />
-    <Content Include="css\images\header-cart.png" />
-    <Content Include="css\images\hotline.png" />
-    <Content Include="css\images\lineheader.png" />
-    <Content Include="css\images\LOGO.png" />
-    <Content Include="css\images\LOGO1.png" />
-    <Content Include="css\images\logo3.png" />
-    <Content Include="css\images\logo_vietinbank.jpg" />
-    <Content Include="css\images\menungang_nen.png" />
-    <Content Include="css\images\nenbody.gif" />
-    <Content Include="css\images\nganhang\agribank.png" />
-    <Content Include="css\images\nganhang\vietcombank.png" />
-    <Content Include="css\images\nganhang\vietinbank.png" />
-    <Content Include="css\images\road.png" />
-    <Content Include="css\images\search_icon.png" />
-    <Content Include="css\images\skype-icon.png" />
-    <Content Include="css\images\slide1.jpg" />
-    <Content Include="css\images\slide2.jpg" />
-    <Content Include="css\images\slide3.jpg" />
-    <Content Include="css\images\vcb.jpg" />
-    <Content Include="css\images\vietcombank.png" />
-    <Content Include="css\images\VietinBank-Logo-EPS-vector-image.png" />
-    <Content Include="css\images\vietinbank.png" />
-    <Content Include="css\images\yahoo-icon.png" />
-    <Content Include="css\index.css" />
-    <Content Include="css\lien-he.css" />
-    <Content Include="css\san-pham.css" />
-    <Content Include="css\tin-tuc.css" />
-    <Content Include="js\full-width-slider.slider\deep-minified.html" />
-    <Content Include="js\full-width-slider.slider\img\a22.png" />
-    <Content Include="js\full-width-slider.slider\img\b05.png" />
-    <Content Include="js\full-width-slider.slider\img\blue.jpg" />
-    <Content Include="js\full-width-slider.slider\img\c-finger-pointing.png" />
-    <Content Include="js\full-width-slider.slider\img\c-fruit.png" />
-    <Content Include="js\full-width-slider.slider\img\c-jssor-slider.png" />
-    <Content Include="js\full-width-slider.slider\img\c-navigator-horizontal.png" />
-    <Content Include="js\full-width-slider.slider\img\c-navigator.png" />
-    <Content Include="js\full-width-slider.slider\img\c-phone-horizontal.png" />
-    <Content Include="js\full-width-slider.slider\img\c-phone.png" />
-    <Content Include="js\full-width-slider.slider\img\c-slide-1.jpg" />
-    <Content Include="js\full-width-slider.slider\img\c-slide-3.jpg" />
-    <Content Include="js\full-width-slider.slider\img\c-text.png" />
-    <Content Include="js\full-width-slider.slider\img\loading.gif" />
-    <Content Include="js\full-width-slider.slider\img\purple.jpg" />
-    <Content Include="js\full-width-slider.slider\img\red.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao10.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao11.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao12.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao2.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao3.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao4.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao5.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao6.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao7.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao8.jpg" />
-    <Content Include="js\full-width-slider.slider\img\sanpham\ao9.jpg" />
-    <Content Include="js\full-width-slider.slider\img\slider\slide1.jpg" />
-    <Content Include="js\full-width-slider.slider\img\slider\slide2.jpg" />
-    <Content Include="js\full-width-slider.slider\img\slider\slide3.jpg" />
-    <Content Include="js\full-width-slider.slider\js\jquery-1.11.3.min.js" />
-    <Content Include="js\full-width-slider.slider\js\jssor.slider-21.1.5.debug.js" />
-    <Content Include="js\full-width-slider.slider\js\jssor.slider-21.1.5.min.js" />
-    <Content Include="js\full-width-slider.slider\js\jssor.slider-21.1.5.mini.js" />
-    <Content Include="js\full-width-slider.slider\no-jquery.html" />
-    <Content Include="js\full-width-slider.slider\with-jquery.html" />
-    <Content Include="js\index.js" />
-    <Content Include="js\jquery-1.8.3.min.js" />
+    <Content Include="cms\display\Blog\BlogDetail.ascx" />
+    <Content Include="cms\display\Blog\BlogLoadControl.ascx" />
+    <Content Include="cms\display\Blog\ListBlog.ascx" />
+    <Content Include="cms\display\Contact\ContactLoadControl.ascx" />
+    <Content Include="cms\display\DisplayLoadControl.ascx" />
+    <Content Include="cms\display\Home\HomeLoadControl.ascx" />
+    <Content Include="cms\display\Shop\ShopLoadControl.ascx" />
+    <Content Include="css\animate.css" />
+    <Content Include="css\Blog.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\Category.css" />
+    <Content Include="css\classy-nav.min.css" />
+    <Content Include="css\core-style.css" />
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\jquery-ui.min.css" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\nice-select.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\classy.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="img\bg-img\bg-1.jpg" />
+    <Content Include="img\bg-img\bg-2.jpg" />
+    <Content Include="img\bg-img\bg-3.jpg" />
+    <Content Include="img\bg-img\bg-4.jpg" />
+    <Content Include="img\bg-img\bg-5.jpg" />
+    <Content Include="img\bg-img\bg-6.jpg" />
+    <Content Include="img\bg-img\bg-7.jpg" />
+    <Content Include="img\bg-img\bg-8.jpg" />
+    <Content Include="img\bg-img\blog1.jpg" />
+    <Content Include="img\bg-img\blog2.jpg" />
+    <Content Include="img\bg-img\blog3.jpg" />
+    <Content Include="img\bg-img\blog4.jpg" />
+    <Content Include="img\bg-img\blog5.jpg" />
+    <Content Include="img\bg-img\blog6.jpg" />
+    <Content Include="img\bg-img\breadcumb.jpg" />
+    <Content Include="img\bg-img\breadcumb2.jpg" />
+    <Content Include="img\bg-img\rp1.jpg" />
+    <Content Include="img\bg-img\rp2.jpg" />
+    <Content Include="img\bg-img\rp3.jpg" />
+    <Content Include="img\bg-img\rp4.jpg" />
+    <Content Include="img\core-img\arrow-down.svg" />
+    <Content Include="img\core-img\arrow-left.svg" />
+    <Content Include="img\core-img\arrow-right.svg" />
+    <Content Include="img\core-img\arrow-up.svg" />
+    <Content Include="img\core-img\bag.svg" />
+    <Content Include="img\core-img\brand1.png" />
+    <Content Include="img\core-img\brand2.png" />
+    <Content Include="img\core-img\brand3.png" />
+    <Content Include="img\core-img\brand4.png" />
+    <Content Include="img\core-img\brand5.png" />
+    <Content Include="img\core-img\brand6.png" />
+    <Content Include="img\core-img\cancel.svg" />
+    <Content Include="img\core-img\favicon.ico" />
+    <Content Include="img\core-img\heart-fill.svg" />
+    <Content Include="img\core-img\heart.svg" />
+    <Content Include="img\core-img\logo.png" />
+    <Content Include="img\core-img\logo2.png" />
+    <Content Include="img\core-img\long-arrow-left.svg" />
+    <Content Include="img\core-img\long-arrow-right.svg" />
+    <Content Include="img\core-img\pin.png" />
+    <Content Include="img\core-img\search.svg" />
+    <Content Include="img\core-img\user.svg" />
+    <Content Include="img\core-img\view.svg" />
+    <Content Include="img\product-img\product-1.jpg" />
+    <Content Include="img\product-img\product-2.jpg" />
+    <Content Include="img\product-img\product-3.jpg" />
+    <Content Include="img\product-img\product-4.jpg" />
+    <Content Include="img\product-img\product-5.jpg" />
+    <Content Include="img\product-img\product-6.jpg" />
+    <Content Include="img\product-img\product-7.jpg" />
+    <Content Include="img\product-img\product-8.jpg" />
+    <Content Include="img\product-img\product-9.jpg" />
+    <Content Include="img\product-img\product-big-1.jpg" />
+    <Content Include="img\product-img\product-big-2.jpg" />
+    <Content Include="img\product-img\product-big-3.jpg" />
+    <Content Include="js\active.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\classy-nav.min.js" />
+    <Content Include="js\jquery\jquery-2.2.4.min.js" />
+    <Content Include="js\map-active.js" />
+    <Content Include="js\plugins.js" />
+    <Content Include="js\popper.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="pic\anhsp\ao-nu.jpg" />
     <Content Include="pic\anhsp\ao-nu1.jpg" />
@@ -1648,6 +1650,62 @@
     <Compile Include="cms\App_Code\Onepay\OnepayCode.cs" />
     <Compile Include="cms\App_Code\Onepay\OnepayQuocTeCode.cs" />
     <Compile Include="cms\App_Code\Path\Link.cs" />
+    <Compile Include="cms\display\Blog\BlogDetail.ascx.cs">
+      <DependentUpon>BlogDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\Blog\BlogDetail.ascx.designer.cs">
+      <DependentUpon>BlogDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\display\Blog\BlogLoadControl.ascx.cs">
+      <DependentUpon>BlogLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\Blog\BlogLoadControl.ascx.designer.cs">
+      <DependentUpon>BlogLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\display\Blog\ListBlog.ascx.cs">
+      <DependentUpon>ListBlog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\Blog\ListBlog.ascx.designer.cs">
+      <DependentUpon>ListBlog.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\display\Contact\ContactLoadControl.ascx.cs">
+      <DependentUpon>ContactLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\Contact\ContactLoadControl.ascx.designer.cs">
+      <DependentUpon>ContactLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\display\DisplayLoadControl.ascx.cs">
+      <DependentUpon>DisplayLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\DisplayLoadControl.ascx.designer.cs">
+      <DependentUpon>DisplayLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\display\Home\HomeLoadControl.ascx.cs">
+      <DependentUpon>HomeLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\Home\HomeLoadControl.ascx.designer.cs">
+      <DependentUpon>HomeLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cms\display\Shop\ShopLoadControl.ascx.cs">
+      <DependentUpon>ShopLoadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cms\display\Shop\ShopLoadControl.ascx.designer.cs">
+      <DependentUpon>ShopLoadControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1657,9 +1715,7 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="cms\display\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App_Data\PublishProfiles\emdep.vn.pubxml" />
     <Content Include="ckeditor\.htaccess" />
@@ -1667,7 +1723,21 @@
     <Content Include="ckeditor\ckfinder\userfiles\.htaccess" />
     <Content Include="ckeditor\plugins\mediaembed\dialogs\.tmp_mediaembed.html.829~" />
     <Content Include="ckeditor\plugins\mediaembed\plugin.js~" />
+    <Content Include="css\core-style.css.map" />
+    <Content Include="fonts\classy.eot" />
+    <Content Include="fonts\classy.ttf" />
+    <Content Include="fonts\classy.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="packages.config" />
+    <Content Include="scss\style.scss" />
+    <Content Include="scss\_mixin.scss" />
+    <Content Include="scss\_responsive.scss" />
+    <Content Include="scss\_theme_color.scss" />
+    <Content Include="scss\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
